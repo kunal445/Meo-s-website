@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moe's Hair Salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <nav>
-        <a href="#">Moe's Hair Saslon (logos)</a>
-        <ul>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+        <div class="wrapper">
+            <a href="#" class="logo">Moe's Hair Saslon</a>
+            <ul>
+                <li>
+                    <a href="#Services">Services</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <header>
         <div class="wrapper">
@@ -26,43 +32,53 @@
         </div>
     </header>
     <main>
-        <section class="wrapper">
+        <section class="servicesSection wrapper">
+            <h3 id="Services">Services</h3>
             <ul class="services">
                 <li>
                     <div class="imgContainer">
                         <img src="./assets/Highlights.jpg" 
                         alt="A photo by Kylie Paz showing a woman with Highlights in her hair.">
                     </div>
-                    Highlights & biolarge - $35
+                    <div class="serviceContent">
+                        <h4>Highlights & biolarge - $35</h4>
+                    </div>
                 </li>
                 <li>
                     <div class="imgContainer">
                         <img src="./assets/hair-Color.jpg" 
                         alt="A photo by George Bohunicky showing a woman with pink hair waving her hair.">
                     </div>
-                    
-                    color - $35
+                    <div class="serviceContent">
+                        <h4>color - $35</h4>
+                    </div>
                 </li>
                 <li>
                     <div class="imgContainer">
                         <img src="./assets/wavy-Hair.jpg"
                         alt="A photo by Anika Huizinga showing a woman sitting and holding her wavy hair.">
                     </div>
-                    permenent waving - #35
+                    <div class="serviceContent">
+                        <h4>permenent waving - $35</h4>
+                    </div>
+                    
                 </li>
                 <li>
                     <div class="imgContainer">
                         <img src="./assets/haircut.jpg"
                             alt="A photo by Agustin Fernandez showing a man getting a haircut.">
                     </div>
-                    haircuts - $35
+                    <div class="serviceContent">
+                        <h4>haircuts - $35</h4>
+                    </div>
+                    
                 </li>
             </ul>
         </section>
     </main>
     <footer id="contact">
         <div class="wrapper">
-            <p>email: Moe'semail@temp.com</p>
+            <p>Email: Moe'semail@temp.com</p>
             <p>Phone: 444-444-4444</p>
         </div>
     </footer>
