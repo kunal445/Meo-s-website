@@ -120,6 +120,49 @@ header {
     background-color: #EFA00B;
 }
 
+.services h3 {
+margin: 50px 0;
+}
+
+.hairServices {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.hairServices li,
+.nailServices li,
+.products li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.nailServices, .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 5px;
+    justify-content: space-between;
+}
+
+.photos li {
+    width: calc(33% - 10px);
+    margin: 5px;
+}
+
+.photos img {
+    max-height: 250px;
+}
+
+
 
 
 /* footer */
