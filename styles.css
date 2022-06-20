@@ -49,9 +49,10 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 50px;
     text-decoration: underline;
+    margin: 50px 0;
 }
+
 
 h2 {
     font-family: 'Lato', sans-serif;
@@ -96,13 +97,14 @@ nav a {
 }
 
 nav a:hover , nav a:focus {
-    color: #EFA00B;
+    /* color: #EFA00B; */
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
 }
 
 .logo {
     font-weight: 500;
 }
-
 
 /* header */
 
@@ -120,15 +122,20 @@ header {
     background-color: #EFA00B;
 }
 
-.services h3 {
-margin: 50px 0;
+.serviceMainHeading {
+    margin-top: 0;
 }
+
 
 .hairServices {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+}
+
+.lastHairService {
+    grid-column: 1 / -1;
 }
 
 .hairServices li,
