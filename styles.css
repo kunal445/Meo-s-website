@@ -178,12 +178,19 @@ footer {
     padding-top: 10px;
     color: black;
 }
+
 footer .wrapper{
     min-height: 8vh;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+
 footer p {
     margin: 5px 0;
+}
+
+.email {
+    text-decoration: underline;
+    color: blue;
 }
