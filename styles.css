@@ -161,7 +161,7 @@ header {
 }
 
 .photos li {
-    width: calc(33% - 10px);
+    flex-basis: calc(33% - 10px);
     margin: 5px;
 }
 
@@ -193,4 +193,18 @@ footer p {
 .email {
     text-decoration: underline;
     color: blue;
+}
+
+@media (max-width:1130px) {
+    .photos li {
+            flex-basis: calc(49% - 10px);
+            
+        }
+}
+
+@media (max-width:560px) {
+    .photos li {
+        flex-basis: 100%;
+
+    }
 }
